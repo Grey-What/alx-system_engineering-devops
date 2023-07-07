@@ -1,3 +1,2 @@
 #!/bin/bash
-chown julien hello
-chgrp julien hello
+chown julien:julien hello
