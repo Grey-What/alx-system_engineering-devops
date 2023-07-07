@@ -1,0 +1,3 @@
+#!/bin/bash
+chown julien hello
+chgrp julien hello
