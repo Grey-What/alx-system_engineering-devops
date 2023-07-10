@@ -9,3 +9,4 @@
 8-cwd_state script creates file that hold content of command ls -la
 9-duplicate_last_line script duplicates last line of file iacta
 10-no_more_js script finds and remove js files in directory and sub directories
+11-directories script counts subdirectories and hidden directories
