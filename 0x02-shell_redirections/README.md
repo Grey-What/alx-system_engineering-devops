@@ -6,3 +6,4 @@
 5-firstlines script displays first 10 lines of /etc/passwd
 6-third_line script displays third line of file iacta
 7-file script creates a file with text inside
+8-cwd_state script creates file that hold content of command ls -la
