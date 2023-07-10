@@ -7,3 +7,4 @@
 6-third_line script displays third line of file iacta
 7-file script creates a file with text inside
 8-cwd_state script creates file that hold content of command ls -la
+9-duplicate_last_line script duplicates last line of file iacta
