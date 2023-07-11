@@ -11,3 +11,4 @@
 10-no_more_js script finds and remove js files in directory and sub directories
 11-directories script counts subdirectories and hidden directories
 12-newest_files script list 10 recent files in current directory
+14-findthatword script searches for patttern root in file
