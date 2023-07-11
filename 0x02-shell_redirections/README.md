@@ -15,3 +15,4 @@
 15-countthatword script counts line that contain pattern bin in file
 16-whatsnext script prints lines containing root and three lines after that in file
 17-hidethisword script display all line not containing pattern bin in file
+18-letteronly script prints lines that start with a letter in specified file
