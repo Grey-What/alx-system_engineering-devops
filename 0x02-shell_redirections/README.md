@@ -17,3 +17,4 @@
 17-hidethisword script display all line not containing pattern bin in file
 18-letteronly script prints lines that start with a letter in specified file
 19-AZ script alters input line by replacing characters
+20-hiago script removes pattern Cc from input string
