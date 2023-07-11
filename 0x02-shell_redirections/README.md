@@ -19,3 +19,4 @@
 19-AZ script alters input line by replacing characters
 20-hiago script removes pattern Cc from input string
 21-reverse script reverses input
+22-users_and_homes script list all users and their directories
