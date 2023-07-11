@@ -13,3 +13,4 @@
 12-newest_files script list 10 recent files in current directory
 14-findthatword script searches for patttern root in file
 15-countthatword script counts line that contain pattern bin in file
+16-whatsnext script prints lines containing root and three lines after that in file
