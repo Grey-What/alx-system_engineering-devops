@@ -4,3 +4,4 @@
 3-paths script counts number of directories in PATH
 4-global_variables script list enviroment variables
 6-create_local_variable script creates new loacal variable BEST
+7-create_global_variable script creates global variable BEST
