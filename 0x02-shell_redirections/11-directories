@@ -1,2 +1,2 @@
 #!/bin/bash
-find /alx-system_engineering-devops/0x02-shell_redirections -mindepth 1 -type d | wc -l
+find /alx-system_engineering-devops/0x02-shell_redirections -mindepth 1 -maxdepth 3 -type d | wc -l
