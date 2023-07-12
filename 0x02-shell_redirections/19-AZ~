@@ -1,0 +1,2 @@
+#!/bin/bash
+read=textline |tr 'A' 'Z' | tr 'c' 'e'

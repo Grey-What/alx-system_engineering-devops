@@ -1,0 +1,2 @@
+#!/bin/bash
+read list=() |tr ' ' '\n' |  sort |uniq -u $list 

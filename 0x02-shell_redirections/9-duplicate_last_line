@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +8 iacta >> iacta
+lastline=$(tail -n +8 iacta) | echo $lastline >> iacta
