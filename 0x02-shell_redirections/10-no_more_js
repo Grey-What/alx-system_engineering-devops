@@ -1,2 +1,2 @@
 #!/bin/bash
-find /alx-system_engineering-devops/0x02-shell_redirections -type f -name '*.js' -delete
+find /alx-system_engineering-devops/0x02-shell_redirections -maxdepth 3 -type f -name '*.js' -delete
