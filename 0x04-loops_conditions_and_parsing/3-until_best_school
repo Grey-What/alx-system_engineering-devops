@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print string 10 times with until statement
+
+my_string="Best School"
+i=0
+until [ "$i" -eq 10 ]; do
+      echo "$my_string"
+      i=$((i + 1))
+done
