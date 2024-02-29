@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print string 10 times with while loop
+
+my_string="Best School"
+i=1
+while [ "$i" -le 10 ]; do
+    echo "$my_string"
+    i=$((i + 1))
+done
