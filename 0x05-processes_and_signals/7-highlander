@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# display message indefinitely with sleep 2 between each print
+# +display different message when receiving signal
+
+trap "echo 'I am invincible!!!'" SIGTERM
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
