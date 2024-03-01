@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# show pid and name of proccess containing bash
+# +not using ps
+
+pgrep -l bash
