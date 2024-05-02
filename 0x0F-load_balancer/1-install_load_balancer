@@ -5,11 +5,11 @@
 
 # installation
 sudo apt-get -y update
-apt-get -y install haproxy=2.0.\*
+apt-get -y install haproxy
 
 config_ser =\
 "
-fronend my-frontend
+frontend my-frontend
         bind *:80
         mode http
         default_backend my-backend
@@ -24,4 +24,3 @@ echo "$config_ser" | sudo tee -a /etc/haproxy/haproxy.cfg
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 
 sudo service haproxy restart
-
