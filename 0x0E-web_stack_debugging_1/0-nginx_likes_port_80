@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# error is with ../sites-enabled/default
+# flags -f delete existing file and replace it
+# and -s create sumbolic link
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
