@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# run the command 'whoami' under a user passed as argument
+# USAGE: ./0-iamsomeoneelse <username argument>
+
+sudo -u "$1" whoami
