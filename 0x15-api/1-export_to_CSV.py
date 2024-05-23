@@ -20,6 +20,6 @@ if __name__ == "__main__":
 
     with open("{}.csv".format(employee_id), 'w') as file:
         for task in to_do:
-            file.write('"{}", "{}", "{}", "{}"\n'
+            file.write('"{}","{}","{}","{}"\n'
                        .format(employee_id, uname,
                                task.get("completed"), task.get("title")))
