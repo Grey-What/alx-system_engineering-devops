@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""connecting to REST api for employ information"""
 
 import requests
 import sys
